@@ -7,7 +7,8 @@ from sklearn.metrics import accuracy_score, classification_report
 
 os.system("cls")
 
-dataset_path = 'C:\\Users\\Caetanogp123\\Desktop\\PROJETOS PY\\novo_venv\\data\\retail_sales_dataset.csv'
+# User Input for Dataset Path
+dataset_path = input("Please enter the path to the retail sales dataset (CSV file): ")
 
 dataset = pd.read_csv(dataset_path)
 
@@ -184,5 +185,4 @@ while True:
         print()
     
     else:
-        print("Invalid choice. Please try again.")
-        print()
+        print
